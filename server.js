@@ -59,8 +59,8 @@ app.use("/salaries", salaryRoutes);
 app.use('/api/final-attendance', finalAttendanceRoutes);
 app.use('/api/non-execute-attendance', nonexefinalAttendanceRoutes);
 
-app.listen(5355, async () => {
-  console.log("🚀 Server running on port 4000");
+app.listen(5175, async () => {
+  console.log("🚀 Server running on port 5175");
 
   try {
     await checkConnection();
